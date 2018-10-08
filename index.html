@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Number Checker</title>
+
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="./assets/javascript/game.js"></script> 
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1 id="ali" class="text-center">Word Guesser</h1>
+        <h2 class="text-center">See if you can guess the Word the computer is thinking of!</h2>
+    </div>
+<div class="container">
+    <div class="row">
+        <div class="col-2">
+
+        </div>
+        <div class="col-8">
+
+            <img src="./images/WordGuess.png" alt="">
+        </div>
+        <div class="col-2">
+            
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-2"></div>
+            <div class="col-8 panel">
+            </div>
+            <div class="col-2">Please Guess Your Word... By Picking Letters from here </div>
+            <!--  <div class="col-2">test3</div> -->
+
+        </div>
+        
+        <div class="row">
+            <div id="tries" class="col-2"></div>
+        </div>
+        <br>
+    </div>
+
+  
+    </div>
+    <div class="container">
+        <div class="row">
+     <div class="col-md-12">
+
+     <div class="card mb-2">
+    <h3 class="card-header text-center">Guess Word</h3>
+    <div class="card-body text-center">
+     <div id="Total_tries1" class="col-6">
+       <h1 class="text-center text-primary"> Your Maximum Tries are: 6</h1>
+        </div>
+       <div id="tries" class="col-2">
+        <h3 >Tries:  </h3>
+         </div>
+     <div id="Total_tries" class="col-2">
+ </div>
+   <div id="win_labels" class="col-2 ">
+    <h3 class="text-success">Win:</h3>
+     </div>
+      <div id="win" class="col-2"></div>
+    <div id="lose_labels" class="col-2">
+  <h3 class="text-danger">Lose:</h3>
+    </div>
+    <div id="lose" class="col-2">
+ </div>
+ <div>
+<div><button id="buttoninput11" class="btn btn-lg active 1" style="margin:5px;" value="-">
+ <button id="buttoninput12" class="btn btn-lg active 2" style="margin:5px;" value="-">
+<button id="buttoninput13" class="btn btn-lg active 3" style="margin:5px;" value="-">
+ </div>
+   <div >
+  <button id="newgame" class="btn btn-lg active" > New Game </button>
+  </div>
+   </div>
+</div>
+ </div>
+  </div>
+ <div class="row">
+ <div class="col-md-12">
+ <button id="buttonselect" class="btn" style="margin:5px;">
+    </div>
+ </div>
+         
+</body>
+
+</html>
